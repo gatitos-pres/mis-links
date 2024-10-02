@@ -6,7 +6,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col justify-between bg-gray-100 p-4">
       <div className="flex flex-col items-center">
-        <h1 className="text-4xl font-bold mb-4">Gatitos Presidenciales</h1>
+        <h1 className="text-4xl font-bold mb-4 justify-center text-center">Gatitos Presidenciales</h1>
         <img
           src={profileImage}
           alt="Perfil"
