@@ -1,35 +1,36 @@
 import React from 'react';
-import { FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaYoutube, FaInstagram, FaHeart } from 'react-icons/fa';
 import profileImage from 'public/profile.png';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-gray-100 p-4">
+    <div className="min-h-screen flex flex-col justify-between justify-center text-center bg-gray-100 p-4 parallax">
       <div className="flex flex-col items-center">
         <h1 className="text-4xl font-bold mb-4 justify-center text-center">Gatitos Presidenciales</h1>
         <img
           src={profileImage}
           alt="Perfil"
-          className="w-32 h-32 rounded-full mb-4"
+          className="w-32 h-32 rounded-full mb-4 shadow-xl"
         />
-        <h2 className="text-2xl mb-4">Sígueme en todas mis redes (:</h2>
+        <h2><FaHeart className="text-red-600 text-2xl mt-10" /></h2>
+        <h2 className="text-2xl mb-4 mt-6">Ayudame a seguir informando, sígueme en:</h2>
         <div className="space-y-4">
-          <a href="https://www.facebook.com/gatitos.presidenciales/" className="flex items-center justify-center text-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-full">
+          <a href="https://www.facebook.com/gatitos.presidenciales/" className="flex items-center justify-center text-center space-x-2 px-4 py-2 rounded-full hover:bg-blue-600 hover:text-white bg-white text-black hover:shadow-xl shadow-md">
             <FaFacebook />
             <span>Facebook</span>
           </a>
-          <a href="https://www.youtube.com/@GatitosPresidenciales" className="flex items-center justify-center text-center space-x-2 bg-red-600 text-white px-4 py-2 rounded-full">
+          <a href="https://www.youtube.com/@GatitosPresidenciales" className="flex items-center justify-center text-center space-x-2 px-4 py-2 rounded-full hover:bg-red-600 hover:text-white bg-white text-black hover:shadow-xl shadow-md">
             <FaYoutube />
             <span>YouTube</span>
           </a>
-          <a href="https://instagram.com/GatitosPresidenciales" className="flex items-center justify-center text-center space-x-2 bg-pink-600 text-white px-4 py-2 rounded-full">
+          <a href="https://instagram.com/GatitosPresidenciales" className="flex items-center justify-center text-center space-x-2 px-4 py-2 rounded-full hover:bg-pink-600 hover:text-white bg-white text-black hover:shadow-xl shadow-md">
             <FaInstagram />
             <span>Instagram (En construcción)</span>
           </a>
         </div>
       </div>
       <footer className="text-gray-600 mt-8 flex items-center justify-center text-center">
-        Derechos reservados: Gatitos Presidenciales ®
+        Propiedad de los gatitos de palacio nacional
       </footer>
     </div>
   );
