@@ -12,7 +12,7 @@ const App: React.FC = () => {
           alt="Perfil"
           className="w-32 h-32 rounded-full mb-4 shadow-xl"
         />
-        <h3 className="text-lg mb-4">Nos apoyas mucho siguiendonos <FaHeart className="inline text-red-600 text-lg" /></h3>
+        <h3 className="text-lg mb-4">Nos apoyas mucho siguiéndonos <FaHeart className="inline text-red-600 text-lg" /></h3>
         <div className="space-y-4">
           <a href="https://www.facebook.com/gatitos.presidenciales/" className="flex items-center justify-center text-center space-x-2 px-4 py-2 rounded-full hover:bg-blue-600 hover:text-white bg-white text-black hover:shadow-xl shadow-md">
             <FaFacebook />
