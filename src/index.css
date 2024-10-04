@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .parallax {
-  background-image: url('/src/assets/pattern.png');
+  background-image: url('/src/assets/pattern.jpg');
   background-repeat: repeat;
 }
