@@ -22,9 +22,9 @@ const App: React.FC = () => {
             <FaYoutube />
             <span>YouTube</span>
           </a>
-          <a href="https://instagram.com/GatitosPresidenciales" className="flex items-center justify-center text-center space-x-2 px-4 py-2 rounded-full hover:bg-pink-600 hover:text-white bg-white text-black hover:shadow-xl shadow-md">
+          <a href="https://instagram.com/Gatitos.Presidenciales" className="flex items-center justify-center text-center space-x-2 px-4 py-2 rounded-full hover:bg-pink-600 hover:text-white bg-white text-black hover:shadow-xl shadow-md">
             <FaInstagram />
-            <span>Instagram (En construcción)</span>
+            <span>Instagram</span>
           </a>
         </div>
       </div>
