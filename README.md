@@ -2,7 +2,7 @@
 
 This is a personal React project working in [Vite](https://github.com/vitejs/vite-plugin-react-swc)-[SWC](https://swc.rs/) with HMR and some ESLint rules.
 
-- This is the current live [live page](https://gatitos-presidenciales.github.io/mis-links/)
+- This is the current live [live page](https://gatitos-pres.github.io/mis-links/)
 
 ## Building, running and deploying
 
