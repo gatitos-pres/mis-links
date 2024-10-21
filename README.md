@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# My links project (React + TypeScript + Vite)
 
 This is a personal React project working in [Vite](https://github.com/vitejs/vite-plugin-react-swc)-[SWC](https://swc.rs/) with HMR and some ESLint rules.
 
